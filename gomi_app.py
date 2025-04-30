@@ -12,7 +12,7 @@ import time
 model = torch.load("full_model.pth", weights_only=False)
 model.eval()
 
-default_classes = ["0", "1", "2", "3"]
+default_classes = ["燃えるごみ", "プラスチック", "ペットボトル", "ダンボール"]
 
 #jsonから分別データを読み込む
 with open("area_class_map.json", encoding="utf-8") as f:
