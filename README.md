@@ -27,7 +27,7 @@ pip install -r requirements.txt
 3. アプリを起動：
 
 ```bash
-streamlit run app.py
+streamlit run gomi_app.py
 ```
 
 ## 📦 主な使用ライブラリ
